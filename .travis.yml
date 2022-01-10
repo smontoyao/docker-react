@@ -7,3 +7,5 @@ services:
 
 script:
   - docker run -e CI=true smontoyao/docker-react npm run test
+
+#- docker run USERNAME/docker-react npm run test -- --coverage
