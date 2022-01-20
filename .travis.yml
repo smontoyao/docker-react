@@ -12,6 +12,7 @@ script:
   #- docker run smontoyao/docker-react npm run test -- --coverage
 
 deploy:
+  skip_cleanup: true
   provider: elasticbeanstalk
   region: "us-east-1"
   app: "docker-react"
